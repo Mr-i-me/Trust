@@ -1,0 +1,36 @@
+# GraphQL from graph at:
+# graphqleditor.com
+
+enum States{
+  Dog
+  Cat
+}
+
+type Contract{
+  name : String!
+  Email: String!
+  id : ID!
+  States : States
+  breed : String!
+  owner : User!
+  photos : [Photo!]!
+  CPF: String!
+  Valor: Integer!
+  Renda mensael
+  Data de nascimento
+  civil
+  Endereço
+}
+
+type User{
+  id : ID!
+  favoritePhoto : Photo
+  photoGallery : [Photo]
+}
+
+type Photo{
+  id : ID!
+  pet : Pet!
+  url : String!
+}
+
