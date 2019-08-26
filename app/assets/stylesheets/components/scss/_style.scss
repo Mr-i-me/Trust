@@ -238,22 +238,7 @@ p {
   }
 }
 
-/* Logo
----------------------------------*/
-.md-logo{
-  width: 18%;
-  // height: 50%;
-}
-#reflect {
-    -webkit-box-reflect: below 8px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.4)));
-}
-.small-logo {
-  padding: 0 32px;
-}
 
-.main-section {
-  padding: 90px 0 110px;
-}
 
 /* Services
 ---------------------------------*/
@@ -268,11 +253,11 @@ p {
   float: left;
   width: 60px;
   i {
-    font-style: normal;
+    // font-style: normal;
     font-size: 38px;
     display: block;
     color: #222;
-    font-family: 'FontAwesome';
+    // font-family: 'FontAwesome';
     line-height: 38px;
   }
 }
