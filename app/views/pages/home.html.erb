@@ -3,7 +3,7 @@
   <div class="container">
     <h1 class="animated fadeInDown delay-07s">
       Welcome!</h1>
-    <figure id="reflect" class=" animated fadeInDown delay-07s">
+    <figure id="reflect" class="flip-scale-up-ver animated fadeInDown delay-07s">
       <a href="#">
         <%= image_tag 'clean-coin.png', class: 'md-logo'%>
       </figure>
@@ -12,7 +12,7 @@
         <!-- <li>Trust Business Bank -->
         <!-- </li> -->
       <!-- </ul> -->
-      <a class=" my-5 link animated fadeInUp delay-1s servicelink" href="#service"><i class="fas fa-angle-double-down"></i></a>
+      <a class=" my-5  animated fadeInUp delay-1s " href="#service"><i class="pt-5 fl-rt"> <%= image_tag 'thin-arrowheads-pointing-down-white.png', width: '50px' %></i></a>
     </div>
 
   </header>
@@ -72,30 +72,54 @@
 
       </div>
     </div>
+
+    </section>
+    <!-- download xpi apps -->
+  <section class="page-section py-5" id="download-xpi" style="background: url(<%= asset_path 'section-bg1.jpg'%>);">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1>Conheca os Aplicativos Parceiros & Gratuitos</h1>
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn link btn-pill servicelink btn-xl text-uppercase animated fadeInUp cta-link delay-1s" data-toggle="modal" data-target="#exampleModalCenter">
+            Plataformas XPI
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">https://www.xpi.com.br/plataformas/</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-1by1">
+                    <iframe class="embed-responsive-item" src="https://www.xpi.com.br/plataformas/"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-  <!--main-section-end-->
+  <!-- download xpi apps -->
+
+
+    <!-- partners -->
+  <section>
   <div class="c-logo-part">
     <!--c-logo-part-start-->
     <div class="container">
       <ul>
         <li>
           <a href="#">
-            <%= image_tag 'black_bridge.png', class: 'small-img' %>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <%= image_tag 'c-liogo2.png'%>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <%= image_tag 'c-liogo3.png'%>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <%= image_tag 'c-liogo4.png'%>
+            <%= image_tag 'black_bridge.png', class: 'small-logo xs-logo' %>
           </a>
         </li>
         <li>
@@ -106,6 +130,7 @@
       </ul>
     </div>
   </div>
+  </section>
 
   <section class="main-section alabaster">
     <!--main-section alabaster-start-->
