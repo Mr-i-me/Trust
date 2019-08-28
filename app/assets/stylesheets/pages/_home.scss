@@ -43,9 +43,10 @@
               transform: rotate3d(1, 1, 0, -360deg);
     }
   }
-
-
-  @media (max-width: 767px) {                  
+  
+// Smaller screens: 2 btns - Google and Apple
+// PC - Only desktop btn
+@media (max-width: 767px) {                  
    #platform-toggle-btn-pc {
       display: none;
    }
