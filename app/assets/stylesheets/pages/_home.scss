@@ -44,3 +44,10 @@
     }
   }
   
+// Smaller screens: 2 btns - Google and Apple
+// PC - Only desktop btn
+@media (max-width: 767px) {                  
+   #platform-toggle-btn-pc {
+      display: none;
+   }
+}
