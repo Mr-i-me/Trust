@@ -43,4 +43,10 @@
               transform: rotate3d(1, 1, 0, -360deg);
     }
   }
-  
+
+
+  @media (max-width: 767px) {                  
+   #platform-toggle-btn-download {
+      display: none;
+   }
+}
